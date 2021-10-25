@@ -334,36 +334,10 @@ color: #212121;
 
 /*PICTURES*/
 
+/*///////////OUR TEAM SECTION/////////*/
 
-
-.code-1{
-width: 370px;
-left: 215px;
-top: 1061px;
-}
-  
-.design-1 {
-width: 370px;
-left: 615px;
-top: 1061px;
-}
-
-.color-1 {
-width: 370px;
-left: 1015px;
-top: 1061px;
-
-}
-
-.our-team{
-
-width: 1600px;
-height: 648px;
-left: 0px;
-top: 1449px;
-
-
-background: #F5F4FA;
+.our-team {
+  background-color: #F5F4FA;
 }
 
 .our-team-members{
