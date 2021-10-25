@@ -22,22 +22,22 @@
 
     <div class="header">
     
-        <header>
+        <header class="header-content">
             <!--nawigacja na stronie-->
             <div class="menu">
-            <nav>
+            <nav class="navigation">
                 <!--Menu-->
                 <div class="logo">
                 <a  class="logo-link" href="index.html"><span class="web">Web</span>Studio</a>
                 </div>
                 <ul class="site-nav">
-                    <li>
+                    <li class="list-agency">
                         <a class="agency-link" href="index.html">Agencja</a>
                     </li>
-                    <li>
+                    <li class="list-portfolio">
                         <a class="portfolio-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
+                    <li class="list-contact">
                         <a class="contact-link" href="#kontakt">Kontakt</a>
                     </li>
                 </ul>
@@ -62,15 +62,35 @@
     </div>
 
     
-<main>
+<main class="main-content">
 <!--Zakładki-->
     <div class="filters">
         <ul style="buttons">
-           <li><button class="button-1" type="button">Wszystkie</button></li> 
-           <li><button  class="button-2"type="button">Strony</button></li>
-           <li><button class="button-3" type="button">Aplikacje</button></li>
-           <li><button class="button-4" type="button">Dizajn</button></li>
-           <li><button class="button-5" type="button">Marketing</button></li>
+           <li class="button-1-list">
+               <button class="button-1" type="button">
+                   Wszystkie
+                </button>
+            </li> 
+           <li class="button-2-liat">
+               <button  class="button-2"type="button">
+                   Strony
+                </button>
+            </li>
+           <li class="button-list-3">
+               <button class="button-3" type="button">
+                   Aplikacje
+                </button>
+            </li>
+           <li class="button-list-4">
+               <button class="button-4" type="button">
+                   Dizajn
+                </button>
+            </li>
+           <li class="button-list-5">
+               <button class="button-5" type="button">
+                   Marketing
+                </button>
+            </li>
         </ul>
     </div>
 
@@ -78,17 +98,19 @@
     <div class="projects">
 
         <ul class="projects-list">
-            <li>
-                <div class="project-1">
-                    <figure>
+            <li class="technocrack-list">
+                <div class="technocrack-card">
+                    <figure class="technocrack">
                         <img src="images/techoncrack.jpg"
                             alt="Zdjęcie przedstawia laptopa, na którego ekranie widać przykładową stronę internetową"
                             width="370" 
                             height="294">
-                        <figcaption>
-            
-                            <b>Technocrack</b>
-                            <p>
+                        <figcaption class="technocrack-description">
+            -
+                            <b class="technocrack-name">
+                                Technocrack
+                            </b>
+                            <p class="technocrack-type">
                                Strona internetowa 
                             </p>
             
@@ -97,16 +119,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-2">
-                    <figure>
+            <li class="no-vs-gs-list">
+                <div class="no-vs-gs-card">
+                    <figure class="no-vs-gs">
                         <img src="images/grafika-no-vs-gs.jpg"
                             alt="Zdjęcie przedstawia dwóch koszykarzy z przeciwnych drużyn podczas chwili starcia w meczu. W tle widać nowoczesne grafiki tworzące indywidualny design. "
                             width="370" height="294">
-                        <figcaption>
+                        <figcaption class="no-vs-gs-description">
             
-                            <b>Grafika New Orlean vs Golden Stars</b>
-                            <p>
+                            <b class="no-vs-gs-name">Grafika New Orlean vs Golden Stars</b>
+                            <p class="no-vs-gs-type">
                               Dizajn  
                             </p>
             
@@ -115,16 +137,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-3">
-                    <figure>
+            <li class="seafood-restaurant-list">
+                <div class="seafood-restaurant-card">
+                    <figure class="seafood-restaurant">
                         <img src="images/restauracja-seafood.jpg" 
                         alt="Zdjęcie przedstawia logo restauracji z owocami morza. Na pierwszym planie widnieje napis THE SEAFOOD EST.2001 RESTAURANT. Na drugim planie znajdyje się ryba. Napis nachodzi na rybę. " 
                         width="370" height="294">
-                        <figcaption>
+                        <figcaption class="seafood-restaurant-description">
             
-                            <b>Restauracja Seafood</b>
-                            <p>
+                            <b class="seafood-restaurant-name">Restauracja Seafood</b>
+                            <p class="seafood-restaurant-type">
                                Aplikacja
                             </p>
             
@@ -133,16 +155,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-4">
-                    <figure>
+            <li class="project-prime-list">
+                <div class="project-prime-card">
+                    <figure class="project-prime">
                         <img src="images/projekt-prime.jpg" 
                              alt="Zjęcie przedstawia duże ,czarne ,nauszne słuchawki bezprzewodowe " 
                              width="370" height="294">
-                        <figcaption>
+                        <figcaption class="project-prime-description">
             
-                            <b>Projekt Prime</b>
-                            <p>
+                            <b class="project-prime-name">Projekt Prime</b>
+                            <p class="project-prime-type">
                                Marketing
                             </p>
             
@@ -151,16 +173,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-5">
-                    <figure>
+            <li class="project-boxes-list">
+                <div class="project-boxes-card">
+                    <figure class="project-boxes">
                         <img src="images/projekt-boxes.jpg"
                              alt="Zdjęcie przedstawia dwa pudłka, położone prostopadle do siebie. Jedno pudełko o ma biały kolor z żółtymi dodatkami i jest większe od drugiego o połowę. Drugie pudełko ma łososiowy kolor." 
                              width="370" height="294">
-                        <figcaption>
+                        <figcaption class="project-boxes-description">
             
-                            <b>Projekt Boxes</b>
-                            <p>
+                            <b class="project-boxes-name">Projekt Boxes</b>
+                            <p class="project-boxes-type">
                                Aplikacja
                             </p>
             
@@ -169,17 +191,17 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-6">
-                    <figure>
+            <li class="i-h-n-b-list">
+                <div class="i-h-n-b-card">
+                    <figure class="i-h-n-b">
                         <img src="images/inspiration-has-no-borders.jpg" 
                              alt="Zdjęcie przestawia nowoczesny monitor, na którego ekranie widać czarną stronę z zarysem mapy świata oraz z białym napisem INSPIRATION HAS NO BORDERS"
                              width="370" 
                              height="294">
-                        <figcaption>
+                        <figcaption class="i-h-n-b-desription">
             
-                            <b>Inspiration has no Borders</b>
-                            <p>
+                            <b class="i-h-n-b-name">Inspiration has no Borders</b>
+                            <p class="i-h-n-b-type">
                                Strona internetowa
                             </p>
             
@@ -188,16 +210,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-7">
-                    <figure>
+            <li class="l-e-m-list">
+                <div class="l-e-m-card">
+                    <figure class="l-e-m">
                         <img src="images/magazyn-limited-edition.jpg" 
                              alt="Zdjęcie przedstawia 2 strony kolorowego magazynu. Na pierwszej stronie widać 2 zdjęcia oraz krótkie opisy.Druga strona składa się z duzęgo zdjęcia na którym widnieje napis I'M A LIMITED EDITION , oraz krótki opis." 
                              width="370" height="294">
-                        <figcaption>
+                        <figcaption class="l-e-m-description">
             
-                            <b>Magazyn Limited Edition</b>
-                            <p>
+                            <b class="l-e-m-name">Magazyn Limited Edition</b>
+                            <p class="l-e-m-type">
                                Dizajn
                             </p>
             
@@ -206,16 +228,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-8">
-                    <figure>
+            <li class="project-lab-list">
+                <div class="project-lab-card">
+                    <figure class="project-lab">
                         <img src="images/projekt-lab.jpg"
                              alt="Zdjecie przedstawia białą metkę  na sznurku ,z napisem LABELTAG  "
                              width="370" height="294">
-                        <figcaption>
+                        <figcaption class="project-lab-description">
             
-                            <b>Projekt LAB</b>
-                            <p>
+                            <b class="project-lab-name">Projekt LAB</b>
+                            <p class="project-lab-type">
                                Marketing
                             </p>
             
@@ -224,16 +246,16 @@
                 </div>
             </li>
 
-            <li>
-                <div class="project-9">
-                    <figure>
+            <li class="growing-buisness-list">
+                <div class="growing-buisness-card">
+                    <figure class="growing-buiseness">
                         <img src="images/growing-business.jpg"
                          alt="Zdjęcie przedstawia laptopa, na którym ktoś trztyma ręce. Na ekranie laptopa widnieje strona internetowa z napisem GROWNIG BUSINESS"
                           width="370" height="294">
-                        <figcaption>
+                        <figcaption class="growing-buisness-description">
             
-                            <b>Growing Business</b>
-                            <p>
+                            <b class="growing-buisness-name">Growing Business</b>
+                            <p class="growing-buisness-type">
                                Aplikacja
                             </p>
             
@@ -251,14 +273,14 @@
 </main>
    
 <!--footer-->
-<footer>
-    <div class="footer">
+<footer class="footer">
+    <div class="footer-content">
         <div class="logo-footer">
-            <a class="logo-footer-1" href="index.html"><span class="web">Web</span>Studio</a>
+            <a class="footer-link" href="index.html"><span class="web">Web</span>Studio</a>
         </div>
         <!--dane adresowe-->
-        <div class="adress-footer">
-            <address>
+        <div class="address-footer">
+            <address class="address-address">
 
                 <p class="adress-text">
                     m. Warszawa, Aleje Jerozolimskie 21
@@ -268,7 +290,7 @@
                 <!--dane kontaktowe-->
                 <!--adres email-->
                 <div class="contacts-footer" id="kontakt">
-                    <p>
+                    <p class="mail-footer">
                         <span class="mail-1">
                             info@example.com
                         </span>
