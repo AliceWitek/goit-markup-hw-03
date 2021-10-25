@@ -1,0 +1,486 @@
+
+:root {
+  --main-font:'Raleway', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+  --main-color:#2196F3;
+}
+ 
+body{
+    font-family:'Roboto','Raleway';
+    width:1600px;
+height: 2349px;
+background-color: #FFFFFF;
+}
+
+/*BASICS*/
+ a {
+      text-decoration: none;
+      color: #000; 
+  }
+
+  ul {
+
+list-style-type: none;
+
+}
+
+
+
+  /*WEB LOGO, SITE-NAV & CONTACTS*/
+
+/*MENU*/
+
+.menu{
+
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color:#FFFFFF;
+    display:flex;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+
+/*WEBSTUDIO LOGO*/
+  .logo-link 
+   {
+
+      
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        font-family:'Raleway';
+        font-weight: bold;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color:#000;
+        padding-left:215px;
+  }
+
+/*NAV*/
+
+nav {
+    width: 261px;
+    height: 16px;
+    left: 453px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  /*AGENCY*/
+
+  .agency-link {
+     
+      width: 53px;
+      left: 453px;
+      top: 32px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-left:93px;
+      color:#212121;
+      text-decoration: none;
+  }
+
+  /*Active link*/
+.web,
+.logo-link:hover,
+.logo-link:focus,
+.agency-link:hover,
+.agency-link:focus,
+.agency-link:active,
+.portfolio-link:focus,
+.portfolio-link:hover,
+.portfolio-link:active,
+.contact-link:hover,
+.contact-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.logo-footer-1:hover,
+.logo-footer-1:focus{
+       color:#2196F3;
+       text-decoration: none;
+       cursor: pointer;
+  }
+
+  
+  
+
+  /*PORTFOLIO*/
+  .portfolio-link{
+     
+      width: 58px;
+      left: 552px;
+      top: 32px;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: #212121;
+
+  }
+
+ 
+
+  /*CONTACTS*/
+.contact-link{
+   
+width: 51px;
+left: 656px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121; 
+}
+
+
+/*MAIL ADRESS*/
+.mail-link {
+   
+width: 135px;
+left: 1078px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+
+}
+
+/*PHONE NUMBER*/
+.tel-link{
+   
+width: 110px;
+left: 1263px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+}
+
+/*FOOTER*/
+
+
+  .footer {
+      
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+  }
+
+  
+
+/*FOOTER STYLES*/
+
+/*Adress*/
+  .address-text{
+
+width: 246px;
+height: 21px;
+left: 215px;
+top: 2208px;
+
+
+  }
+
+/*LOGO FOOTER STYLES*/
+  .logo-footer {  
+       width: 145px;
+       height: 31px;
+       left: 215px;
+       top: 2157px;
+       font-family:'Raleway';
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: #000;
+  }
+
+  
+
+  /*PHONE-NUMBER*/
+  .phone-number-1 {
+
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+ text-decoration: none;
+
+color: rgba(255, 255, 255, 0.6);
+  }
+
+  /*MAIL ADRESS*/
+  .mail-1 {
+      
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2238px;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: rgba(255, 255, 255, 0.6);
+
+  }
+
+  /*HEADER*/
+
+  /*SLOGAN BG*/
+  .company-slogan {
+     
+      width: 1600px;
+      height: 600px;
+      left: 0px;
+      top: 80px;
+      background-color: #2F303A;
+
+    }
+/*SLOGAN TEXT*/
+     .slogan {
+
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+ }
+
+/*BUTTONS*/
+    .button-01 {
+
+width: 117px;
+height: 30px;
+left: 742px;
+top: 440px;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+}
+
+/*LOREM IPSUM SECTION*/
+
+/* DARKER LI TEXT*/
+ .l-i-1 , 
+ .l-i-2 , 
+ .l-i-3 , 
+ .l-i-4 {
+
+
+
+width: 270px;
+height: 16px;
+left: 215px;
+top: 774px;
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+ }
+
+ /*LIGHTER LI TEXT*/
+ .lorem-ipsum-1-text,
+ .lorem-ipsum-2-text,
+ .lorem-ipsum-3-text,
+ .lorem-ipsum-4-text {
+     
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+ column-count: 4;
+}
+
+ 
+
+/*OUR ADVANTAGES SECTION*/
+
+.advantages{
+   
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
+  .adventages-list {
+      display: flex;
+  }
+ 
+
+  /*WHAT WE DO SECTION*/
+.what-we-do{
+   
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+}
+
+.what-we-do-text {
+
+width: 352px;
+height: 42px;
+left: 624px;
+top: 969px;
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+/*PICTURES*/
+
+.code-picture {
+
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+}
+
+.code-1{
+
+width: 370px;
+height: 294px;
+left: 215px;
+top: 1061px;
+
+}
+  
+.design-picture {
+
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+}
+
+.design-1 {
+
+width: 370px;
+height: 294px;
+left: 615px;
+top: 1061px;
+}
+
+.color-picture {
+
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+}
+
+.color-1 {
+
+width: 370px;
+height: 294px;
+left: 1015px;
+top: 1061px;
+
+}
+
+.our-team{
+
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+
+
+background: #F5F4FA;
+}
+
+.our-team-members{
+  
+width: 210px;
+height: 42px;
+left: 695px;
+top: 1543px;
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+
+/*PORTFOLIO BUTTONS*/
+.button-1,
+.button-2,
+.button-3,
+.button-4,
+.button-5 {
+    cursor:pointer;
+}
+  
+
+
+
+
