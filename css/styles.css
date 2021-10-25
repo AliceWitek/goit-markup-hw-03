@@ -108,7 +108,7 @@ nav {
 .tel-link:focus,
 .logo-footer-1:hover,
 .logo-footer-1:focus{
-       color:var(--main-color)
+       color:var(--main-color);
        text-decoration: none;
        cursor: pointer;
   }
@@ -223,34 +223,23 @@ color: #FFFFFF;
   /*PHONE-NUMBER*/
   .phone-number-1 {
 
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2268px;
 font-style: normal;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 text-decoration: none;
-
 color: rgba(255, 255, 255, 0.6);
   }
 
   /*MAIL ADRESS*/
   .mail-1 {
       
-width: 231px;
-height: 21px;
-left: 215px;
-top: 2238px;
-font-weight: normal;
+font-style: normal;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
-
   }
 
 
@@ -298,14 +287,10 @@ cursor:pointer;
  .l-i-2 , 
  .l-i-3 , 
  .l-i-4 {
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
-font-style: normal;
-font-weight: bold;
+
+font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.142;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
@@ -317,9 +302,8 @@ color: #212121;
  .lorem-ipsum-3-text,
  .lorem-ipsum-4-text {
      
-font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.714;
 letter-spacing: 0.03em;
 color: #757575;
  column-count: 4;
@@ -329,39 +313,18 @@ color: #757575;
 
 /*OUR ADVANTAGES SECTION*/
 
-.advantages{
-   
-width: 1170px;
-height: 101px;
-left: 215px;
-top: 774px;
-}
   .adventages-list {
       display: flex;
   }
  
 
   /*WHAT WE DO SECTION*/
-.what-we-do{
-   
-width: 1170px;
-height: 386px;
-left: 215px;
-top: 969px;
-}
+
 
 .what-we-do-text {
-
-width: 352px;
-height: 42px;
-left: 624px;
-top: 969px;
-
-
-font-style: normal;
-font-weight: bold;
+font-weight: 500;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -405,22 +368,33 @@ background: #F5F4FA;
 
 .our-team-members{
   
-width: 210px;
-height: 42px;
-left: 695px;
-top: 1543px;
-
-
-font-style: normal;
-font-weight: bold;
+font-weight: 500;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #212121;
 }
 
+.member-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.member-position{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*////////////PORTFOLIO///////////*/
 
 /*PORTFOLIO BUTTONS*/
 .button-1,
