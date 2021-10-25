@@ -110,8 +110,6 @@ nav {
   }
 
   
-  
-
   /*PORTFOLIO*/
   .portfolio-link{
      
@@ -126,7 +124,6 @@ nav {
 
   }
 
- 
 
   /*CONTACTS*/
 .contact-link{
@@ -183,7 +180,6 @@ top: 2097px;
 background: #2F303A;
   }
 
-  
 
 /*FOOTER STYLES*/
 
@@ -309,22 +305,16 @@ cursor:pointer;
  .l-i-2 , 
  .l-i-3 , 
  .l-i-4 {
-
-
-
 width: 270px;
 height: 16px;
 left: 215px;
 top: 774px;
-
-
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #212121;
  }
 
@@ -337,10 +327,7 @@ color: #212121;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-
-
 letter-spacing: 0.03em;
-
 color: #757575;
  column-count: 4;
 }
