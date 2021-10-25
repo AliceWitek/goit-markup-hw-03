@@ -6,23 +6,29 @@
 }
  
 body{
-    font-family:'Roboto','Raleway';
-    width:1600px;
-height: 2349px;
-background-color: #FFFFFF;
+  font-family: var(--main-font);
+  color: var(--main-color);
+  width:1600px;
+  height: 2349px;
+  background-color: #FFFFFF;
 }
 
-/*BASICS*/
+/*///////////COMPONENTS//////////*/
  a {
       text-decoration: none;
       color: #000; 
   }
 
   ul {
-
 list-style-type: none;
+  }
+/*////////END COMPONENTS/////////*/
 
-}
+
+/*/////////////HEADER////////////*/
+
+
+
 
 
 
@@ -54,6 +60,7 @@ list-style-type: none;
         font-family:'Raleway';
         font-weight: bold;
         font-size: 26px;
+        line-height: 1.192;
         letter-spacing: 0.03em;
         text-decoration: none;
         color:#000;
@@ -75,14 +82,11 @@ nav {
 
   .agency-link {
      
-      width: 53px;
-      left: 453px;
-      top: 32px;
+     
       font-size: 14px;
       font-weight: 500;
+      line-height: 1.142;
       letter-spacing: 0.02em;
-      margin-left:93px;
-      color:#212121;
       text-decoration: none;
   }
 
@@ -104,7 +108,7 @@ nav {
 .tel-link:focus,
 .logo-footer-1:hover,
 .logo-footer-1:focus{
-       color:#2196F3;
+       color:var(--main-color)
        text-decoration: none;
        cursor: pointer;
   }
@@ -190,6 +194,11 @@ width: 246px;
 height: 21px;
 left: 215px;
 top: 2208px;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 
 
   }
@@ -218,16 +227,12 @@ width: 231px;
 height: 21px;
 left: 215px;
 top: 2268px;
-
-
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
-
-
+line-height: 1.714;
 letter-spacing: 0.03em;
- text-decoration: none;
+text-decoration: none;
 
 color: rgba(255, 255, 255, 0.6);
   }
@@ -241,14 +246,13 @@ left: 215px;
 top: 2238px;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.714;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 
   }
 
-  /*HEADER*/
 
   /*SLOGAN BG*/
   .company-slogan {
@@ -262,37 +266,26 @@ color: rgba(255, 255, 255, 0.6);
     }
 /*SLOGAN TEXT*/
      .slogan {
-
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.363;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
  }
 
-/*BUTTONS*/
+/*BUTTON*/
     .button-01 {
-
-width: 117px;
-height: 30px;
-left: 742px;
-top: 440px;
-font-weight: bold;
+font-weight: 500;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: #2196F3;
+background-color: var(--main-color);
 box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor:pointer;
@@ -378,51 +371,22 @@ color: #212121;
 
 /*PICTURES*/
 
-.code-picture {
 
-width: 370px;
-height: 294px;
-left: 215px;
-top: 1061px;
-}
 
 .code-1{
-
 width: 370px;
-height: 294px;
 left: 215px;
 top: 1061px;
-
 }
   
-.design-picture {
-
-width: 370px;
-height: 294px;
-left: 615px;
-top: 1061px;
-}
-
 .design-1 {
-
 width: 370px;
-height: 294px;
 left: 615px;
-top: 1061px;
-}
-
-.color-picture {
-
-width: 370px;
-height: 294px;
-left: 1015px;
 top: 1061px;
 }
 
 .color-1 {
-
 width: 370px;
-height: 294px;
 left: 1015px;
 top: 1061px;
 
