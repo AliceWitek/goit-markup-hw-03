@@ -107,12 +107,7 @@ nav {
 .tel-link:hover,
 .tel-link:focus,
 .logo-footer-1:hover,
-.logo-footer-1:focus,
-.button-1:hover,
-.button-2:hover,
-.button-3:hover,
-.button-4:hover,
-.button-5:hover{
+.logo-footer-1:focus{
        color:var(--main-color);
        text-decoration: none;
        cursor: pointer;
@@ -390,6 +385,19 @@ color: #757575;
     cursor:pointer;
 }
   
+.button-1:hover,
+.button-1:focus,
+.button-2:hover,
+.button-2:focus,
+.button-3:hover,
+.button-3:focus,
+.button-4:hover,
+.button-4:focus,
+.button-5:hover,
+.button-5:focus {
+  color:var(--main-color);
+  cursor: pointer;
+}
 
 
 
