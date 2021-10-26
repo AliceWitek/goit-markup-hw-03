@@ -395,7 +395,8 @@ color: #757575;
 .button-4:focus,
 .button-5:hover,
 .button-5:focus {
-  color:var(--main-color);
+  background-color:var(--main-color);
+  color:#FFFFFF;
   cursor: pointer;
 }
 
