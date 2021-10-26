@@ -383,6 +383,10 @@ color: #757575;
 .button-4,
 .button-5 {
     cursor:pointer;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    
+;
 }
   
 .button-1:hover,
