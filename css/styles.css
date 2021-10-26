@@ -376,7 +376,20 @@ color: #757575;
 
 /*////////////PORTFOLIO///////////*/
 
-/*PORTFOLIO BUTTONS*/
+/*PORTFOLIO FILTERS*/
+
+.filters-list {
+    width: 572px;
+    height: 54px;
+    margin-left: 510px;
+    margin-top: 94px;
+    margin-bottom: 34px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .button-1,
 .button-2,
 .button-3,
