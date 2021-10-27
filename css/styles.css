@@ -88,7 +88,7 @@ nav {
       line-height: 1.142;
       letter-spacing: 0.02em;
       text-decoration: none;
-      margin-left: 453px;
+     
   }
 
   /*Active link*/
@@ -122,7 +122,7 @@ nav {
       letter-spacing: 0.02em;
       text-decoration: none;
       color: #212121;
-      margin-left: 552px;
+   
 
   }
 
@@ -135,7 +135,7 @@ font-size: 14px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #212121; 
-margin-left: 656px;
+
 }
 
 
@@ -148,7 +148,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #757575;
-margin-left: 1078px;
+
 
 }
 
@@ -161,7 +161,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: #757575;
-margin-left: 1263px;
+
 }
 
 .company-slogan {
