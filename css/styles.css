@@ -64,7 +64,10 @@ list-style-type: none;
  
 
 /*NAV*/
-
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .site-nav{
     width: 254px;
     left: 453px;
