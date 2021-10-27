@@ -105,7 +105,11 @@ list-style-type: none;
 .tel-link:hover,
 .tel-link:focus,
 .logo-footer-1:hover,
-.logo-footer-1:focus{
+.logo-footer-1:focus,
+.mail-1:hover,
+.mail-1:focus,
+.phone-number-1:hover,
+.phone-number-1:focus{
        color:var(--main-color);
        text-decoration: none;
        cursor: pointer;
