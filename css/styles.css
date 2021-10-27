@@ -306,7 +306,6 @@ padding: 0px;
 
  .advantages {
     width: 1170px;
-    height: 101px;
     margin-left: 215px;
     margin-top: 94px;
 }
@@ -363,7 +362,6 @@ margin-bottom: 0px;
   /*WHAT WE DO SECTION*/
 .what-we-do {
    width: 1170px;
-    height: 386px;
     margin-left: 215px;
     margin-top: 94px;
     display: flex;
