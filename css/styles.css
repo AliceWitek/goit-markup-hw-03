@@ -299,7 +299,15 @@ padding: 0px;
 
 }
 
-/*LOREM IPSUM SECTION*/
+/*ADVANTAGES SECTION*/
+
+ .advantages {
+    width: 1170px;
+    height: 101px;
+    margin-left: 215px;
+    margin-top: 94px;
+}
+
 
 /* DARKER LI TEXT*/
  .l-i-1 , 
@@ -313,6 +321,7 @@ line-height: 1.142;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin:0px;
  }
 
  /*LIGHTER LI TEXT*/
@@ -325,7 +334,8 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: #757575;
- column-count: 4;
+margin-top: 10px;
+margin-bottom: 0px;
 }
 
  
@@ -333,13 +343,23 @@ color: #757575;
 /*OUR ADVANTAGES SECTION*/
 
   .adventages-list {
-      display: flex;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .lorem-ipsum-2,
+  .lorem-ipsum-3,
+  .lorem-ipsum-4 {
+    margin-left:30px;
   }
  
 
   /*WHAT WE DO SECTION*/
 
-
+ 
 .what-we-do-text {
 font-weight: 500;
 font-size: 36px;
