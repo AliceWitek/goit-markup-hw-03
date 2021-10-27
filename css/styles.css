@@ -255,7 +255,8 @@ top: 80px;
 
     }
 /*SLOGAN TEXT*/
-     .slogan {
+.slogan {
+width:696px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.363;
@@ -263,6 +264,9 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-top: 200px;
+margin-bottom: 0px;
+justify-content: center;
  }
 
 /*BUTTON*/
