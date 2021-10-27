@@ -355,7 +355,17 @@ margin-bottom: 0px;
  
 
   /*WHAT WE DO SECTION*/
-
+.what-we-do {
+   width: 1170px;
+    height: 386px;
+    margin-left: 215px;
+    margin-top: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    align-content: space-between;
+}
  
 .what-we-do-text {
 font-weight: 500;
@@ -363,6 +373,7 @@ font-size: 36px;
 line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
+margin-left: 0px;
 
 color: #212121;
 
@@ -370,10 +381,22 @@ color: #212121;
 
 /*PICTURES*/
 
+.design-picture,
+color-picture {
+margin-left:30px;
+}
+
 /*///////////OUR TEAM SECTION/////////*/
 
 .our-team {
-  background-color: #F5F4FA;
+    margin-top: 0px;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-content: center;
+    background-color: #F5F4FA;
 }
 
 .our-team-members{
@@ -384,14 +407,30 @@ line-height: 1.166;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin:0px;
+
 }
 
 .team-members-list {
-  width: 1170px;
-height: 368px;
-left: 215px;
-top: 1635px;
+   
+    margin-top: 50px;
+    margin-left: 215px;
+    width: 1170px;
+    height: 368px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.member-1-list,
+.member-2-list,
+.member-3-list,
+.member-4-list {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 
 .member-name{
 font-weight: 500;
@@ -400,6 +439,8 @@ line-height: 1.187;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin: 0px;
+margin-top: 30px;
 }
 
 .member-position{
@@ -409,6 +450,8 @@ line-height: 1.187;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+margin: 0px;
+margin-top: 10px;
 }
 
 /*////////////PORTFOLIO///////////*/
