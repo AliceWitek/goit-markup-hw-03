@@ -195,19 +195,21 @@ background: #2F303A;
 
 /*FOOTER STYLES*/
 
-/*Adress*/
-  .address-text{
+/*ADDRESS FOOTER*/
+  .address-footer{
 
-width: 246px;
-height: 21px;
-left: 215px;
-top: 2208px;
-font-style: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-
+    width: 255px;
+    height: 81px;
+    margin-top: 20px;
+    margin-left: 215px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em; 
+    color: #FFFFFF;
 
   }
 
@@ -230,7 +232,7 @@ color: #FFFFFF;
 
   
 
-  /*PHONE-NUMBER*/
+  /*PHONE-NUMBER FOOTER*/
   .phone-number-1 {
 
 font-style: normal;
@@ -241,7 +243,7 @@ text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
   }
 
-  /*MAIL ADRESS*/
+  /*MAIL ADRESS FOOTER*/
   .mail-1 {
       
 font-style: normal;
