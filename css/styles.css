@@ -8,8 +8,6 @@
 body{
   font-family: var(--main-font);
   color: var(--main-color);
-  width:1600px;
-  height: 2349px;
   background-color: #FFFFFF;
 }
 
