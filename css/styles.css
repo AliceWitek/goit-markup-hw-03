@@ -140,6 +140,12 @@ color: #212121;
 
 
 /*MAIL ADRESS*/
+
+.mail-to {
+margin-left: 718px;
+}
+
+
 .mail-link {
    
 font-weight: 500;
@@ -153,6 +159,11 @@ color: #757575;
 }
 
 /*PHONE NUMBER*/
+
+.tel-link {
+margin-left: 50px;
+}
+
 .tel-link{
    
 font-weight: 500;
