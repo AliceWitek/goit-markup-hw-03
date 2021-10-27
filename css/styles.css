@@ -176,16 +176,8 @@ color: #757575;
 
 }
 
-.company-slogan {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: #2F303A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
 /*FOOTER*/
 
 
@@ -258,14 +250,18 @@ color: rgba(255, 255, 255, 0.6);
 
 
   /*SLOGAN BG*/
-  .company-slogan {
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
- background-color: #2F303A;
 
-    }
+  .company-slogan {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 /*SLOGAN TEXT*/
 .slogan {
 width:696px;
@@ -282,8 +278,7 @@ justify-content: center;
  }
 
 /*BUTTON*/
-    .button-01 {
-      
+.button-01 {   
 font-weight: 500;
 font-size: 16px;
 line-height: 1.875;
@@ -297,6 +292,8 @@ box-shadow: px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor:pointer;
 border:none;
+margin-top: 30px;
+padding: 0px;
 
 }
 
