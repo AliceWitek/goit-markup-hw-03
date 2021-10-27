@@ -6,7 +6,7 @@
 }
  
 body{
-  font-family: var(--main-font);
+  font-family: var(--main-font), 'Raleway';
   color: var(--main-color);
   background-color: #FFFFFF;
 }
@@ -185,8 +185,10 @@ color: #757575;
       
 width: 1600px;
 height: 252px;
-left: 0px;
-top: 2097px;
+margin-left: 0px;
+margin-top: 0px;
+display: flex;
+flex-direction: column;
 background: #2F303A;
   }
 
@@ -214,7 +216,7 @@ color: #FFFFFF;
        width: 145px;
        height: 31px;
        left: 215px;
-       top: 2157px;
+       top: 60px;
        font-family:'Raleway';
         font-weight: bold;
         font-size: 26px;
