@@ -66,6 +66,7 @@ list-style-type: none;
 /*NAV*/
 
 .navigation{
+    position: absolute;
     width: 254px;
     left: 453px;
     display: flex;
