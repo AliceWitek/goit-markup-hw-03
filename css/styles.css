@@ -40,10 +40,8 @@ list-style-type: none;
 
 .menu{
 
-    width: 1600px;
+    
     height: 80px;
-    left: 0px;
-    top: 0px;
     background-color:#FFFFFF;
     display:flex;
     align-items:center;
@@ -189,10 +187,8 @@ color: #757575;
 
   .footer {
       
-width: 1600px;
+
 height: 252px;
-margin-left: 0px;
-margin-top: 0px;
 display: flex;
 flex-direction: column;
 background: #2F303A;
