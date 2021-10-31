@@ -27,7 +27,11 @@ list-style-type: none;
 
 
 
-
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
 
 
   /*WEB LOGO, SITE-NAV & CONTACTS*/
@@ -256,7 +260,11 @@ text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
   }
 
+/*/////////////MAIN//////////////*/
 
+.container-full-dark-bg {
+  width: 100%
+}
   /*SLOGAN BG*/
 
   .company-slogan {
