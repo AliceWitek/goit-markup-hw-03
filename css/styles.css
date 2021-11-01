@@ -258,10 +258,15 @@ color: rgba(255, 255, 255, 0.6);
 
 /*/////////////MAIN//////////////*/
 
-.container-full-dark-bg {
+.container-full {
   width: 100%
 }
-  /*SLOGAN BG*/
+
+.dark-bg{
+  background-color: #000;
+}
+
+/*SLOGAN BG*/
 
   .company-slogan {
     width: 1600px;
