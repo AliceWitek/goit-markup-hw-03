@@ -31,6 +31,10 @@ list-style-type: none;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 0;
+}
+    .container-menu{
+
+    
     display: flex;
     justify-content: space-around;
 }
