@@ -295,6 +295,11 @@ background-image:url(/images/bg-img.jpg);
  }
 
 /*BUTTON*/
+
+.button{
+  display: flex;
+  justify-content: center;
+}
 .button-01 {   
   width: 200px;
   height: 50px;
@@ -484,6 +489,7 @@ margin-top: 10px;
     list-style: none;
     padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -525,6 +531,28 @@ margin-top: 10px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border:none;
+}
+
+.projects-list{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: -10px;
+  margin-top: -10px;
+
+}
+
+.technocrack-list,
+.no-vs-gs-list,
+.seafood-restaurant-list,
+.project-prime-list,
+.project-boxes-list,
+.i-h-n-b-list,
+.l-e-m-list,
+.project-lab-list,
+.growing-buisness-list {
+  margin-left: 10px;
+  margin-top: 10px;
+  flex-basis: calc(100% / 3 - 10px);
 }
 
 
