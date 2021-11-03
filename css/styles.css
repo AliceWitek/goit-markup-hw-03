@@ -555,6 +555,27 @@ margin-top: 10px;
   flex-basis: calc(100% / 3 - 10px);
 }
 
+.technocrack-name,
+.no-vs-gs-name,
+.seafood-restaurant-name,
+.project-prime-name,
+.project-boxes-name,
+.i-h-n-b-name,
+.l-e-m-name,
+.project-lab-name,
+.growing-buiseness-name{
+  color:#212121;
+}
 
-
+.technocrack-type,
+.no-vs-gs-type,
+.seafood-restaurant-type,
+.project-prime-type,
+.project-boxes-type,
+.i-h-n-b-type,
+.l-e-m-type,
+.projct-lab-type,
+.growing-buisness-type{
+  color: #757575;
+}
 
