@@ -19,10 +19,10 @@
 
     <!--logo, nawigacja po stronie oraz z dane do kontaktu-->
   
-
+    <container class="portfolio-container">
     <header>
 
-    <div class="container-menu">
+    <container class="container-menu">
     
         <div class="header-content">
             <!--nawigacja na stronie-->
@@ -70,6 +70,7 @@
     <main>
 <section class="container-full">
 <!--Zakładki-->
+<container class="portfolio-list">
     <div class="filters">
         <ul class="filters-list">
            <li class="button-1-list">
@@ -101,22 +102,23 @@
     </div>
 
 <!--Projekty-->
-    <div class="projects">
+    <container class="projects">
+    <div class="all-projects">
 
         <ul class="projects-list">
-            <li class="technocrack-list">
+            <li class="project-list">
                 <div class="technocrack-card">
-                    <figure class="technocrack">
-                        <img src="images/techoncrack.jpg"
+                    <figure class="project-card">
+                        <img class="project-image" src="images/techoncrack.jpg"
                             alt="Zdjęcie przedstawia laptopa, na którego ekranie widać przykładową stronę internetową"
                             width="370" 
                             height="294">
-                        <figcaption class="technocrack-description">
+                        <figcaption class="project-description">
             
-                            <b class="technocrack-name">
+                            <b class="project-name">
                                 Technocrack
                             </b>
-                            <p class="technocrack-type">
+                            <p class="project-type">
                                Strona internetowa 
                             </p>
             
@@ -125,16 +127,16 @@
                 </div>
             </li>
 
-            <li class="no-vs-gs-list">
+            <li class="project-list">
                 <div class="no-vs-gs-card">
-                    <figure class="no-vs-gs">
-                        <img src="images/grafika-no-vs-gs.jpg"
+                    <figure class="project-card">
+                        <img class="project-image" src="images/grafika-no-vs-gs.jpg"
                             alt="Zdjęcie przedstawia dwóch koszykarzy z przeciwnych drużyn podczas chwili starcia w meczu. W tle widać nowoczesne grafiki tworzące indywidualny design. "
                             width="370" height="294">
-                        <figcaption class="no-vs-gs-description">
+                        <figcaption class="project-description">
             
-                            <b class="no-vs-gs-name">Grafika New Orlean vs Golden Stars</b>
-                            <p class="no-vs-gs-type">
+                            <b class="project-name">Grafika New Orlean vs Golden Stars</b>
+                            <p class="project-type">
                               Dizajn  
                             </p>
             
@@ -143,16 +145,16 @@
                 </div>
             </li>
 
-            <li class="seafood-restaurant-list">
+            <li class="project-list">
                 <div class="seafood-restaurant-card">
-                    <figure class="seafood-restaurant">
-                        <img src="images/restauracja-seafood.jpg" 
+                    <figure class="project-card">
+                        <img class="project-image" src="images/restauracja-seafood.jpg" 
                         alt="Zdjęcie przedstawia logo restauracji z owocami morza. Na pierwszym planie widnieje napis THE SEAFOOD EST.2001 RESTAURANT. Na drugim planie znajdyje się ryba. Napis nachodzi na rybę. " 
                         width="370" height="294">
-                        <figcaption class="seafood-restaurant-description">
+                        <figcaption class="project-description">
             
-                            <b class="seafood-restaurant-name">Restauracja Seafood</b>
-                            <p class="seafood-restaurant-type">
+                            <b class="project-name">Restauracja Seafood</b>
+                            <p class="project-type">
                                Aplikacja
                             </p>
             
@@ -161,16 +163,16 @@
                 </div>
             </li>
 
-            <li class="project-prime-list">
+            <li class="project-list">
                 <div class="project-prime-card">
-                    <figure class="project-prime">
-                        <img src="images/projekt-prime.jpg" 
+                    <figure class="project-card">
+                        <img class="project-image" src="images/projekt-prime.jpg" 
                              alt="Zjęcie przedstawia duże ,czarne ,nauszne słuchawki bezprzewodowe " 
                              width="370" height="294">
-                        <figcaption class="project-prime-description">
+                        <figcaption class="project-description">
             
-                            <b class="project-prime-name">Projekt Prime</b>
-                            <p class="project-prime-type">
+                            <b class="project-name">Projekt Prime</b>
+                            <p class="project-type">
                                Marketing
                             </p>
             
@@ -179,16 +181,16 @@
                 </div>
             </li>
 
-            <li class="project-boxes-list">
+            <li class="project-list">
                 <div class="project-boxes-card">
-                    <figure class="project-boxes">
-                        <img src="images/projekt-boxes.jpg"
+                    <figure class="project-card">
+                        <img  class="project-image"src="images/projekt-boxes.jpg"
                              alt="Zdjęcie przedstawia dwa pudłka, położone prostopadle do siebie. Jedno pudełko o ma biały kolor z żółtymi dodatkami i jest większe od drugiego o połowę. Drugie pudełko ma łososiowy kolor." 
                              width="370" height="294">
-                        <figcaption class="project-boxes-description">
+                        <figcaption class="project-description">
             
-                            <b class="project-boxes-name">Projekt Boxes</b>
-                            <p class="project-boxes-type">
+                            <b class="project-name">Projekt Boxes</b>
+                            <p class="project-type">
                                Aplikacja
                             </p>
             
@@ -197,17 +199,17 @@
                 </div>
             </li>
 
-            <li class="i-h-n-b-list">
+            <li class="project-list">
                 <div class="i-h-n-b-card">
-                    <figure class="i-h-n-b">
-                        <img src="images/inspiration-has-no-borders.jpg" 
+                    <figure class="project-card">
+                        <img class="project-image" src="images/inspiration-has-no-borders.jpg" 
                              alt="Zdjęcie przestawia nowoczesny monitor, na którego ekranie widać czarną stronę z zarysem mapy świata oraz z białym napisem INSPIRATION HAS NO BORDERS"
                              width="370" 
                              height="294">
-                        <figcaption class="i-h-n-b-desription">
+                        <figcaption class="project-description">
             
-                            <b class="i-h-n-b-name">Inspiration has no Borders</b>
-                            <p class="i-h-n-b-type">
+                            <b class="project-name">Inspiration has no Borders</b>
+                            <p class="project-type">
                                Strona internetowa
                             </p>
             
@@ -216,16 +218,16 @@
                 </div>
             </li>
 
-            <li class="l-e-m-list">
+            <li class="project-list">
                 <div class="l-e-m-card">
-                    <figure class="l-e-m">
-                        <img src="images/magazyn-limited-edition.jpg" 
+                    <figure class="project-card">
+                        <img class="project-image"src="images/magazyn-limited-edition.jpg" 
                              alt="Zdjęcie przedstawia 2 strony kolorowego magazynu. Na pierwszej stronie widać 2 zdjęcia oraz krótkie opisy.Druga strona składa się z duzęgo zdjęcia na którym widnieje napis I'M A LIMITED EDITION , oraz krótki opis." 
                              width="370" height="294">
-                        <figcaption class="l-e-m-description">
+                        <figcaption class="project-description">
             
-                            <b class="l-e-m-name">Magazyn Limited Edition</b>
-                            <p class="l-e-m-type">
+                            <b class="project-name">Magazyn Limited Edition</b>
+                            <p class="project-type">
                                Dizajn
                             </p>
             
@@ -234,16 +236,16 @@
                 </div>
             </li>
 
-            <li class="project-lab-list">
+            <li class="project-list">
                 <div class="project-lab-card">
-                    <figure class="project-lab">
-                        <img src="images/projekt-lab.jpg"
+                    <figure class="project-card">
+                        <img class="project-image"src="images/projekt-lab.jpg"
                              alt="Zdjecie przedstawia białą metkę  na sznurku ,z napisem LABELTAG  "
                              width="370" height="294">
-                        <figcaption class="project-lab-description">
+                        <figcaption class="project-description">
             
-                            <b class="project-lab-name">Projekt LAB</b>
-                            <p class="project-lab-type">
+                            <b class="project-name">Projekt LAB</b>
+                            <p class="project-type">
                                Marketing
                             </p>
             
@@ -252,16 +254,16 @@
                 </div>
             </li>
 
-            <li class="growing-buisness-list">
+            <li class="project-list">
                 <div class="growing-buisness-card">
-                    <figure class="growing-buiseness">
-                        <img src="images/growing-business.jpg"
+                    <figure class="project-card">
+                        <img class="project-image"src="images/growing-business.jpg"
                          alt="Zdjęcie przedstawia laptopa, na którym ktoś trztyma ręce. Na ekranie laptopa widnieje strona internetowa z napisem GROWNIG BUSINESS"
                           width="370" height="294">
-                        <figcaption class="growing-buisness-description">
+                        <figcaption class="project-description">
             
-                            <b class="growing-buisness-name">Growing Business</b>
-                            <p class="growing-buisness-type">
+                            <b class="project-name">Growing Business</b>
+                            <p class="project-type">
                                Aplikacja
                             </p>
             
@@ -273,6 +275,9 @@
 
         </ul>
     </div>
+    </container>
+    </container>
+    
 </section>
 
 
@@ -313,7 +318,7 @@
 
     </div>
 </footer>
-
-    </main>
+</main>
+</container>
 </body>
 </html>
