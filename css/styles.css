@@ -222,19 +222,25 @@ nav {
 } 
 
 .what-we-do-section {
+  width:1170px;
     height: 574px;
     padding-top: 94px;
     padding-bottom: 94px;
     padding-left: 215px;
+     
+  
 }
 
 .what-we-do {
     width: 1170px;
     height: 386px;
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
+    flex-wrap:wrap;
     justify-content: center;
     align-content: space-between;
+    
+    
+    
 }
 
 .what-we-do-text {
