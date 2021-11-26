@@ -431,9 +431,8 @@ padding-top: 200px;
  flex-wrap:wrap;
   /* margin-top: -10px; */
   margin-bottom:64px;
-  margin-left:234px;
-  margin-right:203px;
-  /* margin-right:250px; */
+ margin-left:234px;
+ 
 }
 
 .project-list{
@@ -442,11 +441,10 @@ padding-top: 200px;
 margin-right:10px;
 margin-left:20px;
   /* flex-basis: calc(100% / 3 - 10px); */
-  background: #FFFFFF;
+background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-
-/* height: 404px; */
+height: 404px;
 }
 
 .project-card{
