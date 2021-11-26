@@ -431,14 +431,15 @@ padding-top: 200px;
  flex-wrap:wrap;
   /* margin-top: -10px; */
   margin-bottom:64px;
+  margin-left:300px;
+  /* margin-right:250px; */
 }
 
-
 .project-list{
-  margin-top:20px;
+   /* margin-top:10px; */
   margin-bottom:30px;
-  margin-left:10px;
-
+margin-right:10px;
+margin-left:20px;
   /* flex-basis: calc(100% / 3 - 10px); */
   background: #FFFFFF;
 border: 1px solid #EEEEEE;
