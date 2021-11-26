@@ -8,7 +8,7 @@ body {
   font-family: var(--main-font), "Raleway";
   color: var(--main-color);
   background-color: #ffffff;
-  width:1600px;
+
 } 
 
 /*///////////COMPONENTS//////////*/
@@ -32,6 +32,7 @@ header {
 }
 .container{
   width:1200px;
+  margin:0 auto;
 
 }
 
@@ -57,7 +58,7 @@ header {
 }
 
 .web {
-    color: #2196F3;
+    color:var(--main-color);
 }
 
 nav {
@@ -77,11 +78,11 @@ nav {
 }
 .agency-link:hover, 
 .agenccy-link:focus {
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 .agency:active {
-    color: #2196f3;
+    color: var(--main-color);
 }
 
 .portfolio-link {
@@ -96,13 +97,12 @@ nav {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
-    color: #2196F3;
     text-decoration: none;
 }
-
+.portfolio-link:active,
 .portfolio-link:hover,
 .portfolio-link:focus {
-    color: #2196F3;
+    color: var(--main-color);
 }
 
 .contact-link {
@@ -126,7 +126,7 @@ nav {
 .mail-footer:focus,
 .tel-footer:hover,
 .tel-footer:focus {
-    color: #2196F3;
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -157,7 +157,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 696px;
-padding-left: 452px;
+ padding-left: 452px;
 padding-top: 200px; 
 }
 
@@ -178,7 +178,7 @@ padding-top: 200px;
     width: 200px;
     height: 50px;
     margin-top: 30px;
-    background: #2196F3;
+    background: var(--main-color);
     font-size: 16px;
     letter-spacing: 0.06em;
     padding: 0px;
@@ -190,7 +190,7 @@ padding-top: 200px;
 .advantages-section {
     height: 195px;
     padding-top: 94px;
-    padding-left: 215px;
+   
 }
 .advantages {
     width: 1170px;
@@ -229,17 +229,16 @@ padding-top: 200px;
 } 
 
 .what-we-do-section {
-  width:1170px;
+  
     height: 574px;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 215px;
      
   
 }
 
 .what-we-do {
-    width: 1170px;
+    
     height: 386px;
     display:flex;
     flex-wrap:wrap;
@@ -265,7 +264,6 @@ padding-top: 200px;
 .our-team-section {
     height: 648px;
     background: #F5F4FA;
-    padding-left: 215px;
 }
 .our-team {
     padding-top: 94px;
@@ -327,7 +325,6 @@ padding-top: 200px;
 .footer {
     width: 1200px;
     height: 252px;
-    padding-left: 215px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -371,9 +368,7 @@ padding-top: 200px;
 }
 /*////////////PORTFOLIO///////////*/
 .portfolio-container {
-  width: 1600px;
-
-  background: #ffffff;
+   background: #ffffff;
 }
 
 /*PORTFOLIO FILTERS*/
@@ -381,11 +376,10 @@ padding-top: 200px;
 .filters-list {
   width: 572px;
   height: 54px;
-  margin-left: 510px;
-  margin-top: 94px;
-  margin-bottom: 34px;
+  margin: 0 auto;
+ margin-top: 94px;
+ padding:0px;
   list-style: none;
-  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -431,14 +425,9 @@ padding-top: 200px;
   border: none;
 }
 
-.projects {
-  display: flex;
-  align-content: stretch;
-
-}
 .projects-list {
   display: flex;
-  flex-direction:column;
+
   flex-wrap:wrap;
   margin-left: -10px;
   margin-top: -10px;
@@ -451,35 +440,46 @@ padding-top: 200px;
   background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-width: 370px;
+ width: 370px;
 height: 404px;
 }
-
-.project-card:nth-child(1) img{
-  object-fit:fill;
-
-  object-position: right top;
+.name-card{
+width: 370px;
+height: 404px;
+left: 627px;
+top: 262px;
 }
+
+.project-card{
+  margin:0;
+}
+
+/* .project-card:nth-child(1) img{
+  object-fit:contain;
+/* 
+  object-position: right top; 
+}*/
 
 .project-name {
   color: #212121;
   font-size: 18px;
 line-height: 36px;
-
-margin:4px;
-letter-spacing: 0.06em;
+margin:0px; 
+padding-left: 24px; 
+padding-top: 20px; 
+height: 36px;
 
 }
 .project-type {
   color: #757575;
   font-size: 16px;
 line-height: 30px;
-margin:4px;
-
+margin:0 auto;
+padding-left: 24px;
 letter-spacing: 0.03em;
 }
 .project-description{
   width: 322px;
   height: 70px;
 
-}  */
+}  
